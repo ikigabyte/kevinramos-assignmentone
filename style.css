@@ -1,0 +1,30 @@
+/*
+Theme Name: Kevin Ramos'  Wordpress Theme
+Theme URI: https://kevinramosgraphics.wordpress.com/
+Author: Kevin Ramos
+Author URI: https://kevinramosgraphics.wordpress.com/
+Description: Some awsome theme description 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * TODO: Update Font family to your Google Font
+**/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
