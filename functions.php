@@ -3,14 +3,14 @@
  * Proper way to enqueue scripts and styles
  */
 function web_tech_four_scripts() {
-    // TODO: Use https://bootstrap.build/app to create a custom bootstrap.min.css to replace the one included, think about changing default colors
+
     wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css' );
     
-    // TODO: Use https://icomoon.io/ to replace the font-style and icomoon fonts in the css folder to include your logo and custom icons
+  
     wp_enqueue_style( 'icon-style', get_template_directory_uri() . '/css/font-style.css' );
     
-    // TODO: Change this to a font pair of your choice (don't forget to update the style in style.css)
-    wp_enqueue_style( 'font-style', 'https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
+ 
+    wp_enqueue_style( 'font-style', 'https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
 
     wp_enqueue_style( 'main-style', get_stylesheet_uri() );
     

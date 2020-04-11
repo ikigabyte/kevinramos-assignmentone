@@ -16,7 +16,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><span class="icon-logo-4 display-4"></span></a>
+                <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><span class="icon-pacman"></span></a>
                 <?php
                     wp_nav_menu(
                       array(
